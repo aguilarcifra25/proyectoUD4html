@@ -1,0 +1,35 @@
+* {
+		box-sizing: border-box;
+}
+
+#envoltorio {
+	width: 85%;
+	margin: 0 auto;
+	min-width: 650px;
+
+}
+
+#envoltorio header img {
+	width: 100%;
+}
+
+
+
+
+
+#envoltorio footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(224, 176, 75);
+	padding: 30px 5%;
+
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(30, 58, 95);
+}
+
+#envoltorio footer a{
+	text-decoration: none;
+	color: #000000;
+
+}
