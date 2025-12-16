@@ -25,6 +25,67 @@
 
 }
 		
+#envoltorio #menu {
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	background-color: rgb(224, 176, 75);
+
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(30, 58, 95);
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+#envoltorio #menu nav {
+
+	display: flex;
+	justify-content: space-evenly;
+
+	flex-basis: 20%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	
+	padding: 20px;
+
+	font-size: 1.15em;
+}
+
+#envoltorio #menu nav li{
+
+	list-style: none;
+
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+#envoltorio #menu nav li:hover{
+
+	scale: calc(1.1);
+	font-weight: bold;
+}
+
+
+#envoltorio nav img{
+	
+	box-sizing: border-box;
+
+	width: 50px;
+}
+
+#envoltorio nav a{
+	
+	text-decoration: none;
+	color: #000;
+}
+
+
 #envoltorio #contenido main{
 
 	flex: 1 1 60%;
@@ -71,6 +132,11 @@
 
 }
 
+#envoltorio #contenido aside .anuncio img:hover{
+
+	transform: scale(1.05);
+
+}
 
 #envoltorio footer{
 
