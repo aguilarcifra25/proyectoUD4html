@@ -21,16 +21,12 @@
 
 #envoltorio #contenido main div .articulo{
 
-	background-color: aqua;
+	display: inline-block;
 
 	border-width: 4px;
     border-style: solid;
     border-color: rgb(30, 58, 95);
 	border-radius: 20px;
-
-	padding: 10px;
-	padding-top: 20px;
-	padding-bottom: 0px;
 
 	text-align: center;
 
@@ -40,7 +36,17 @@
 	width: 30%;
 
 	position: relative;
+	overflow: hidden;
 
+	margin: 10px;
+
+}
+
+#envoltorio #contenido main div .articulo:hover{
+
+	scale: calc(1.1);
+	cursor: pointer;
+	
 }
 
 #envoltorio #contenido main div .grupo{
@@ -49,14 +55,17 @@
 	justify-content: space-evenly;
 	position: relative;
 
-	margin: 10px;
+	padding: 30px;
+	
+	flex-wrap: wrap;
+	flex-direction: row;
 
 }
 
 
 #envoltorio #contenido main div img{
 
-	width: 80%;
+	width: 100%;
 
 }
 
@@ -81,43 +90,45 @@
 			<main>
 				<div class ="grupo">
 					<div class ="articulo">
-						<img src="BorrarFinal/placeholder.jpg">
+						<img src="Imagenes/Poción.png">
 						<p>Pociones</p>
 					</div>
 					<div class ="articulo">
-						<img src="BorrarFinal/placeholder.jpg">
+						<img src="Imagenes/Cura_total.png">
 						<p>Cura estados</p>
 					</div>
 					<div class ="articulo">
-						<img src="BorrarFinal/placeholder.jpg">
+						<img src="Imagenes/Velocidad_X.png">
 						<p>Objetos X</p>
 					</div>
 				</div>
-				<div class ="Grupo">
+				<div class ="grupo">
 					<div class ="articulo">
-						<img src="BorrarFinal/placeholder.jpg">
+						<img src="Imagenes/Casco_dentado.png">
 						<p>Objetos Batalla</p>
 					</div>
 					<div class ="articulo">
-						<img src="BorrarFinal/placeholder.jpg">
+						<img src="Imagenes/Piedra_fuego.png">
 						<p>Objetos Evolutivos</p>
 					</div>
 					<div class ="articulo">
-						<img src="BorrarFinal/placeholder.jpg">
+						<img src="Imagenes/Leche_Mu-mu.png">
 						<p>Alimentos</p>
 					</div>
 				</div>
-				<div>
-					<img src="BorrarFinal/placeholder.jpg">
-					<p>Mega-Piedras</p>
-				</div>
-				<div>
-					<img src="BorrarFinal/placeholder.jpg">
-					<p>Cristales Z</p>
-				</div>
-				<div>
-					<img src="BorrarFinal/placeholder.jpg">
-					<p>Pokéballs</p>
+				<div class ="grupo">
+					<div class ="articulo">
+						<img src="Imagenes/Salamencita.png">
+						<p>Mega-Piedras</p>
+					</div>
+					<div class ="articulo">
+						<img src="Imagenes/Cristal_Z.png">
+						<p>Cristales Z</p>
+					</div>
+					<div class ="articulo">
+						<img src="Imagenes/Poké_Ball.png">
+						<p>Pokéballs</p>
+					</div>
 				</div>
 			</main>
 			<aside>
