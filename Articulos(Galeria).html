@@ -4,6 +4,63 @@
     <meta charset="UTF-8">
     <title>PokeShop</title>
     <link rel="Stylesheet" type="text/css" href="estilos.css">
+	<style>
+
+
+#envoltorio #contenido main{
+
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+
+	display: inline-block;
+
+	width: 50%;
+
+}
+
+#envoltorio #contenido main div .articulo{
+
+	background-color: aqua;
+
+	border-width: 4px;
+    border-style: solid;
+    border-color: rgb(30, 58, 95);
+	border-radius: 20px;
+
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+
+	text-align: center;
+
+	font-size: 1.5em;
+	font-weight: bold;
+
+	width: 30%;
+
+	position: relative;
+
+}
+
+#envoltorio #contenido main div .grupo{
+
+	display: flex;
+	justify-content: space-evenly;
+	position: relative;
+
+	margin: 10px;
+
+}
+
+
+#envoltorio #contenido main div img{
+
+	width: 80%;
+
+}
+
+	</style>
 </head>
 <body>
     <div id="envoltorio">
@@ -22,6 +79,46 @@
 		</nav>
 		<div id="contenido">
 			<main>
+				<div class ="grupo">
+					<div class ="articulo">
+						<img src="BorrarFinal/placeholder.jpg">
+						<p>Pociones</p>
+					</div>
+					<div class ="articulo">
+						<img src="BorrarFinal/placeholder.jpg">
+						<p>Cura estados</p>
+					</div>
+					<div class ="articulo">
+						<img src="BorrarFinal/placeholder.jpg">
+						<p>Objetos X</p>
+					</div>
+				</div>
+				<div class ="Grupo">
+					<div class ="articulo">
+						<img src="BorrarFinal/placeholder.jpg">
+						<p>Objetos Batalla</p>
+					</div>
+					<div class ="articulo">
+						<img src="BorrarFinal/placeholder.jpg">
+						<p>Objetos Evolutivos</p>
+					</div>
+					<div class ="articulo">
+						<img src="BorrarFinal/placeholder.jpg">
+						<p>Alimentos</p>
+					</div>
+				</div>
+				<div>
+					<img src="BorrarFinal/placeholder.jpg">
+					<p>Mega-Piedras</p>
+				</div>
+				<div>
+					<img src="BorrarFinal/placeholder.jpg">
+					<p>Cristales Z</p>
+				</div>
+				<div>
+					<img src="BorrarFinal/placeholder.jpg">
+					<p>Pokéballs</p>
+				</div>
 			</main>
 			<aside>
 				<div class="anuncio" id="arriba">PUBLICIDAD</div>
