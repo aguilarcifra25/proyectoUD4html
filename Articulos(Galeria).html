@@ -6,68 +6,67 @@
     <link rel="Stylesheet" type="text/css" href="estilos.css">
 	<style>
 
+		#envoltorio #contenido main{
 
-#envoltorio #contenido main{
+			flex-wrap: wrap;
+			flex-direction: row;
+			align-items: center;
 
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
+			display: inline-block;
 
-	display: inline-block;
+			width: 50%;
 
-	width: 50%;
+		}
 
-}
+		#envoltorio #contenido main div .articulo{
 
-#envoltorio #contenido main div .articulo{
+			display: inline-block;
 
-	display: inline-block;
+			border-width: 4px;
+			border-style: solid;
+			border-color: rgb(30, 58, 95);
+			border-radius: 20px;
 
-	border-width: 4px;
-    border-style: solid;
-    border-color: rgb(30, 58, 95);
-	border-radius: 20px;
+			text-align: center;
 
-	text-align: center;
+			font-size: 1.5em;
+			font-weight: bold;
 
-	font-size: 1.5em;
-	font-weight: bold;
+			width: 30%;
 
-	width: 30%;
+			position: relative;
+			overflow: hidden;
 
-	position: relative;
-	overflow: hidden;
+			margin: 10px;
 
-	margin: 10px;
+		}
 
-}
+		#envoltorio #contenido main div .articulo:hover{
 
-#envoltorio #contenido main div .articulo:hover{
+			scale: calc(1.1);
+			cursor: pointer;
+			
+		}
 
-	scale: calc(1.1);
-	cursor: pointer;
-	
-}
+		#envoltorio #contenido main div .grupo{
 
-#envoltorio #contenido main div .grupo{
+			display: flex;
+			justify-content: space-evenly;
+			position: relative;
 
-	display: flex;
-	justify-content: space-evenly;
-	position: relative;
+			padding: 30px;
+			
+			flex-wrap: wrap;
+			flex-direction: row;
 
-	padding: 30px;
-	
-	flex-wrap: wrap;
-	flex-direction: row;
-
-}
+		}
 
 
-#envoltorio #contenido main div img{
+		#envoltorio #contenido main div img{
 
-	width: 100%;
+			width: 100%;
 
-}
+		}
 
 	</style>
 </head>
@@ -135,16 +134,16 @@
 			<aside>
 				<div class="anuncio" id="arriba">PUBLICIDAD</div>
 				<div class="anuncio">
-					<img src="BorrarFinal/placeholder.jpg">
-					<p>Comprar pociones</p>
+					<img src="Imagenes/Anuncios/AnuncioPoti.png">
+					<p>~ Comprar pociones ~</p>
 				</div>
 				<div class="anuncio">
-					<img src="BorrarFinal/placeholder.jpg">
-					<p>Comprar bolas de dragón</p>
+					<img src="Imagenes/Anuncios/AnuncioBall.png">
+					<p>~ Comprar pokéballs ~</p>
 				</div>
 				<div class="anuncio">
-					<img src="BorrarFinal/placeholder.jpg">
-					<p>Comprar pokéballs</p>
+					<img src="Imagenes/Anuncios/AnuncioPoti.png">
+					<p>~ Comprar pociones ~</p>
 				</div>
 			</aside>
 		</div>
