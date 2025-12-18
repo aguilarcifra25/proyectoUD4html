@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>PokeShop</title>
+    <link rel="Stylesheet" type="text/css" href="estilos.css">
+	<style>
+
+		#envoltorio #contenido main{
+
+			flex-wrap: wrap;
+			flex-direction: row;
+			align-items: center;
+
+			display: inline-block;
+
+			width: 50%;
+
+		}
+
+		#envoltorio #contenido main div .articulo{
+
+			display: inline-block;
+
+			border-width: 4px;
+			border-style: solid;
+			border-color: rgb(30, 58, 95);
+			border-radius: 20px;
+
+			text-align: center;
+
+			font-size: 1.5em;
+			font-weight: bold;
+
+			width: 30%;
+
+			position: relative;
+			overflow: hidden;
+
+			margin: 10px;
+
+		}
+
+		#envoltorio #contenido main div .articulo:hover{
+
+			scale: calc(1.1);
+			cursor: pointer;
+			
+		}
+
+		#envoltorio #contenido main div .grupo{
+
+			display: flex;
+			justify-content: space-evenly;
+			position: relative;
+
+			padding: 30px;
+			
+			flex-wrap: wrap;
+			flex-direction: row;
+
+		}
+
+
+		#envoltorio #contenido main div img{
+
+			width: 100%;
+
+		}
+
+	</style>
+</head>
+<body>
+    <div id="envoltorio">
+		<header>
+			<img src="Imagenes/banner v2.png">
+		</header>
+		<nav id = "menu">
+			<img src="Imagenes/miniIconoBall.png">
+			<nav>
+				<li><a href="#" target="_self">Portada</a></li>
+				<li><a href="Indice.html" target="_self">Índice</a></li>
+				<li><a href="Articulos(Galeria).html" target="_self">Artículos</a></li>
+				<li><a href="UsandoProductos(Carrusel).html">Usando nuestros productos</a></li>
+				<li><a href="#">Poké-Shop en el mundo</a></li>
+			</nav>
+			<img src="Imagenes/miniIconoBall.png">
+		</nav>
+		<div id="contenido">
+			<main>
+				<div class ="grupo">
+					<div class ="articulo">
+						<img src="Imagenes/Poción.png">
+						<p>Pociones</p>
+					</div>
+					<div class ="articulo">
+						<img src="Imagenes/Cura_total.png">
+						<p>Cura estados</p>
+					</div>
+					<div class ="articulo">
+						<img src="Imagenes/Velocidad_X.png">
+						<p>Objetos X</p>
+					</div>
+				</div>
+				<div class ="grupo">
+					<div class ="articulo">
+						<img src="Imagenes/Casco_dentado.png">
+						<p>Objetos Batalla</p>
+					</div>
+					<div class ="articulo">
+						<img src="Imagenes/Piedra_fuego.png">
+						<p>Objetos Evolutivos</p>
+					</div>
+					<div class ="articulo">
+						<img src="Imagenes/Leche_Mu-mu.png">
+						<p>Alimentos</p>
+					</div>
+				</div>
+				<div class ="grupo">
+					<div class ="articulo">
+						<img src="Imagenes/Salamencita.png">
+						<p>Mega-Piedras</p>
+					</div>
+					<div class ="articulo">
+						<img src="Imagenes/Cristal_Z.png">
+						<p>Cristales Z</p>
+					</div>
+					<div class ="articulo">
+						<img src="Imagenes/Poké_Ball.png">
+						<p>Pokéballs</p>
+					</div>
+				</div>
+			</main>
+			<aside>
+				<div class="anuncio" id="arriba">PUBLICIDAD</div>
+				<div class="anuncio">
+					<img src="Imagenes/Anuncios/AnuncioPoti.png">
+					<p>~ Comprar pociones ~</p>
+				</div>
+				<div class="anuncio">
+					<img src="Imagenes/Anuncios/AnuncioBall.png">
+					<p>~ Comprar pokéballs ~</p>
+				</div>
+				<div class="anuncio">
+					<img src="Imagenes/Anuncios/AnuncioPoti.png">
+					<p>~ Comprar pociones ~</p>
+				</div>
+			</aside>
+		</div>
+        <footer>
+			<h3>Francisco Aguilar Cid<br/><br/>José Manuel Díaz Gámez</h3>
+			<p><a href="#"><br/>Aviso Legal</a></p>
+			<p><a href="#">aguilar.cifra25@triana.salesianos.edu<br/><br/>diaz.gajos24@triana.salesianos.edu</a></p>
+			<p><a href="#">Twitter: @pokeshop<br/><br/>Instagram: @pokeshop</a></p>
+		</footer>
+    </div>
+</body>
+</html>

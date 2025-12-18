@@ -3,6 +3,7 @@
 }
 
 #envoltorio {
+
 	width: 85%;
 	margin: 0 auto;
 	min-width: 650px;
@@ -10,14 +11,147 @@
 }
 
 #envoltorio header img {
+
 	width: 100%;
+
+}
+
+#envoltorio #contenido{
+
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	flex-direction: row;
+
+}
+		
+#envoltorio #menu {
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	background-color: rgb(224, 176, 75);
+
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(30, 58, 95);
+
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 
+#envoltorio #menu nav {
+
+	display: flex;
+	justify-content: space-evenly;
+
+	flex-basis: 20%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	
+	padding: 20px;
+
+	font-size: 1.15em;
+}
+
+#envoltorio #menu nav li{
+
+	list-style: none;
+
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+#envoltorio #menu nav li:hover{
+
+	scale: calc(1.1);
+	font-weight: bold;
+}
 
 
+#envoltorio nav img{
+	
+	box-sizing: border-box;
+
+	width: 50px;
+}
+
+#envoltorio nav a{
+	
+	text-decoration: none;
+	color: #000;
+}
+
+
+#envoltorio #contenido main{
+
+	flex: 1 1 60%;
+	padding: 20px 3%;
+}
+
+
+#envoltorio #contenido aside{
+
+	flex: 1 1 20%;
+	background-color: rgb(210, 230, 240);
+
+}
+
+#envoltorio #contenido aside .anuncio{
+
+	text-align: center;
+	margin: 15px auto;
+	width: 90%;
+
+}
+
+#envoltorio #contenido aside .anuncio img{
+
+	width: 100%;
+	padding-top: 5px;
+
+}
+
+#envoltorio #contenido aside .anuncio video{
+
+	width: 100%;
+	padding-top: 5px;
+
+}
+
+#envoltorio #contenido aside #arriba{
+
+	font-size: 2em;
+	font-weight: bold;
+
+}
+
+#envoltorio #contenido aside .anuncio img+p{
+
+	width: 75%;
+	margin: 3px auto;
+	text-align: center;
+
+	font-size: 1.25em;
+	font-weight: bold;
+	padding-bottom: 20px;
+
+}
+
+#envoltorio #contenido aside .anuncio img:hover{
+
+	transform: scale(1.1);
+	cursor: pointer;
+
+	font-weight: bold;
+
+}
 
 #envoltorio footer{
+
 	display: flex;
 	justify-content: space-between;
 	background-color: rgb(224, 176, 75);
@@ -26,9 +160,11 @@
     border-width: 4px;
     border-style: solid;
     border-color: rgb(30, 58, 95);
+
 }
 
 #envoltorio footer a{
+
 	text-decoration: none;
 	color: #000000;
 

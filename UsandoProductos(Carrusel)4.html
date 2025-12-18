@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>PokeShop</title>
+    <link rel="Stylesheet" type="text/css" href="estilos.css">
+	<style>
+		#contenido main {
+
+			text-align: center;
+
+			font-size: 1.25em;
+
+			margin: 20px;
+			margin-bottom: 80px;
+
+		}
+
+		#contenido main p{
+
+			padding: 30px;
+			padding-bottom: 50px;
+
+		}
+
+		#contenido main img{
+
+			border-width: 4px;
+			border-style: solid;
+			border-color: rgb(30, 58, 95);
+			border-radius: 20px;
+
+			width: 80%;
+			height: 40%;
+
+		}
+
+		#contenido main #info{
+
+			display: flex;
+			justify-content: space-evenly;
+
+			padding: 10px;
+
+		}
+
+		#contenido main #info a img{
+
+			border: unset;
+
+			width: 50%;
+			height: 100%;
+			
+		}
+
+		#contenido main #info a:hover{
+
+			scale: calc(1.1);
+			cursor: pointer;
+
+		}
+
+		#contenido main #info p{
+
+			padding: 0;
+			
+			width: 850px;
+
+			font-style: italic;
+			font-size: 0.95em;
+		}
+
+		#contenido main #info #flechaDerecha{
+
+			transform: rotate(180deg);
+
+		}
+
+		#contenido main #info #tope{
+
+		filter: grayscale(100%);
+
+		}
+
+		#contenido main #info #tope:hover{
+
+		scale: unset;
+		cursor: auto;
+
+		}
+
+	</style>
+</head>
+<body>
+    <div id="envoltorio">
+		<header>
+			<img src="Imagenes/banner v2.png">
+		</header>
+		<nav id = "menu">
+			<img src="Imagenes/miniIconoBall.png">
+			<nav>
+				<li><a href="#" target="_self">Portada</a></li>
+				<li><a href="Indice.html" target="_self">Índice</a></li>
+				<li><a href="Articulos(Galeria).html" target="_self">Artículos</a></li>
+				<li><a href="UsandoProductos(Carrusel).html">Usando nuestros productos</a></li>
+				<li><a href="#">Poké-Shop en el mundo</a></li>
+			</nav>
+			<img src="Imagenes/miniIconoBall.png">
+		</nav>
+		<div id="contenido">
+			<main>
+				<h1>Carrusel de imágenes</h1>
+				<p>A continuación se muestran algunas imágenes donde podemos ver aplicaciones de los distintos productos de Poké-shop, 
+					desde útiles pociones a poderosas megapiedras.</p>
+				<img id = "imagen" src="Imagenes/Carrusel4.jpg">
+				<div id = "info">
+					<a href="UsandoProductos(Carrusel)3.html#imagen"><img src="Imagenes/Flecha_venenosa_EP.png"></a>
+					<p>Un entrenador activando una cristal-z para infundir de energía a su pokémon</p>
+					<a id = "tope" href="UsandoProductos(Carrusel)4.html#imagen"><img id =flechaDerecha src="Imagenes/Flecha_venenosa_EP.png"></a>
+				</div>
+			</main>
+			<aside>
+				<div class="anuncio" id="arriba">PUBLICIDAD</div>
+				<div class="anuncio">
+					<img src="Imagenes/Anuncios/AnuncioPoti.png">
+					<p>~ Comprar pociones ~</p>
+				</div>
+				<div class="anuncio">
+					<img src="Imagenes/Anuncios/AnuncioBall.png">
+					<p>~ Comprar pokéballs ~</p>
+				</div>
+				<div class="anuncio">
+					<img src="Imagenes/Anuncios/AnuncioPoti.png">
+					<p>~ Comprar pociones ~</p>
+				</div>
+			</aside>
+		</div>
+        <footer>
+			<h3>Francisco Aguilar Cid<br/><br/>José Manuel Díaz Gámez</h3>
+			<p><a href="#"><br/>Aviso Legal</a></p>
+			<p><a href="#">aguilar.cifra25@triana.salesianos.edu<br/><br/>diaz.gajos24@triana.salesianos.edu</a></p>
+			<p><a href="#">Twitter: @pokeshop<br/><br/>Instagram: @pokeshop</a></p>
+		</footer>
+    </div>
+</body>
+</html>
