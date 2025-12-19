@@ -7,6 +7,21 @@
     <link rel="Stylesheet" type="text/css" href="estilos.css">
     <style>
         
+         #contenido main{
+
+            font-size: 1.25em;
+
+            padding: 50px;
+        }
+
+        #contenido main article img{
+
+            margin: 40px;
+
+            width: 60%;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
@@ -14,52 +29,65 @@
         <header>
 		    <img src="Imagenes/banner v2.png">
 	    </header>
-    <div id="contenido">
-        <main>
-            <article>
-                <h1>La campeona lo vuelve a hacer</h1>
-                <p>
-                    Noticia de ultima hora, la campeona de la región de sinnoh Chyntia ha vuelto a ganar el torneo internacional 
-                    con su mega-Garchomp.
-                    La campeona sigue en racha de 10 victorias consecutivas en los torneos regionales, muchos especulan que esto 
-                    se debe a los nuevos articulos que compro en la nueva tienda que abrio recientemente llamada Poke-Shop,
-                    se dice que la mega piedra que ha estado utilizando Chyntia con su garchomp viene de esta misma tienda.
-                    No solo eso, otros entrenadores del mismo nivel tambien han confirmado el haber realizado compras importantes
-                    en esta tienda.
-                    ¿Sera este el inicio de una evolución en las batallas pokemon gracias a los articulos exclusivos de Poke-Shop?
-                    Todos estamos impacientes de ver el encuentro de varios entrenadores que se hayan equipado con productos
-                    de esta tienda y esten dispuestos a dar un show legendario. 
-                </p>
-            </article>
-            <article>
-                <h1>El mejor amigo de los Pokemon Rangers</h1>
-                <p>
-                    La semana pasada  tuvimos la oportunidad de entrevistar a unos mienbros del equipo Pokemon Rangers
-                    un equipo que se encarga de cuidar, curar y salvar pokemons de todo tipo de desdichas.
-                    Lo más hablado por ellos es la ubicación de donde compran sus equipamientos, objetos como pociones con
-                    las que curan las heridas, antidotos con los que curan problemas de estado y variados por el estilo.
-                    Todo viene de una tienda conocida como Poke-Shop, una tienda que vende un repertorio muy grande
-                    de objetos de todo tipo, el equipo esta muy contento con el servicio y la calidad de los objetos
-                    que reciben de esta tienda y animan a los entrenadores a darle una oportunidad a esta tienda.  
-                </p>
-            </article>
-        </main>
-        <aside>
-            <div class="anuncio" id="arriba">PUBLICIDAD</div>
-            <div class="anuncio">
-                <img src="Imagenes/Anuncios/AnuncioPoti.png">
-                <p>~ Comprar pociones ~</p>
-            </div>
-            <div class="anuncio">
-                <img src="Imagenes/Anuncios/AnuncioBall.png">
-                <p>~ Comprar pokéballs ~</p>
-            </div>
-            <div class="anuncio">
-                <img src="Imagenes/Anuncios/AnuncioPoti.png">
-                <p>~ Comprar pociones ~</p>
-            </div>
-        </aside>
-    </div>
+        <nav id = "menu">
+			<img src="Imagenes/miniIconoBall.png">
+			<nav>
+				<li><a href="Portada.html" target="_self">Portada</a></li>
+				<li><a href="Indice.html" target="_self">Índice</a></li>
+				<li><a href="Articulos(Galeria).html" target="_self">Artículos</a></li>
+				<li><a href="UsandoProductos(Carrusel).html">Usando nuestros productos</a></li>
+				<li><a href="Noticia.html">Poké-Shop en el mundo</a></li>
+			</nav>
+			<img src="Imagenes/miniIconoBall.png">
+		</nav>
+         <div id="contenido">
+            <main>
+                <article>
+                    <h1>La campeona lo vuelve a hacer</h1>
+                    <img src="Imagenes/Mega-Garchomp_de_Cynthia.png">
+                    <p>
+                        Noticia de última hora, la campeona de la región de Sinnoh Chyntia ha vuelto a ganar el torneo internacional 
+                        con su mega-Garchomp.
+                        La campeona sigue en racha de <strong>10 victorias consecutivas</strong> en los torneos regionales, muchos especulan que esto 
+                        se debe a los nuevos artículos que compró en la nueva tienda que abrió recientemente llamada Poké-Shop.
+                        Se dice que la <strong>mega-piedra</strong> que ha estado utilizando Chyntia con su garchomp viene de esta misma tienda.
+                        No solo eso, otros entrenadores del mismo nivel tambien han confirmado el haber realizado compras importantes
+                        en esta tienda.
+                        ¿Será este el inicio de una evolución en las batallas pokémon gracias a los artículos exclusivos de Poke-Shop?
+                        Todos estamos impacientes de ver el encuentro de varios entrenadores que se hayan equipado con productos
+                        de esta tienda y estén dispuestos a dar un show legendario. 
+                    </p>
+                </article>
+                <article>
+                    <h1>El mejor amigo de los Pokémon Rangers</h1>
+                    <img src="Imagenes/Pokemon ranger.jpg">
+                    <p>
+                        La semana pasada  tuvimos la oportunidad de entrevistar a unos mienbros del equipo Pokémon Rangers,
+                        un equipo que se encarga de cuidar, curar y salvar a pokémon de todo tipo de desdichas.
+                        Lo más hablado por ellos es la ubicación de donde compran sus equipamientos, objetos como pociones con
+                        las que curan las heridas, antídotos con los que curan problemas de estado y variados por el estilo.
+                        Todo viene de una tienda conocida como Poké-Shop, una tienda que vende un repertorio muy grande
+                        de objetos de todo tipo, el equipo está muy contento con el servicio y la calidad de los objetos
+                        que reciben de esta tienda y animan a los entrenadores a darle una oportunidad a la misma.  
+                    </p>
+                </article>
+            </main>
+            <aside>
+                <div class="anuncio" id="arriba">PUBLICIDAD</div>
+                <div class="anuncio">
+                    <img src="Imagenes/Anuncios/AnuncioPoti.png">
+                    <p>~ Comprar pociones ~</p>
+                </div>
+                <div class="anuncio">
+                    <img src="Imagenes/Anuncios/AnuncioBall.png">
+                    <p>~ Comprar pokéballs ~</p>
+                </div>
+                <div class="anuncio">
+                    <img src="Imagenes/Anuncios/AnuncioPoti.png">
+                    <p>~ Comprar pociones ~</p>
+                </div>
+            </aside>
+         </div>
         <footer>
 		    <h3>Francisco Aguilar Cid<br/><br/>José Manuel Díaz Gámez</h3>
 		    <p><a href="#"><br/>Aviso Legal</a></p>
