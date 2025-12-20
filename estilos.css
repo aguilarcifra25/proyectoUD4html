@@ -154,7 +154,7 @@
 
 	display: flex;
 	justify-content: space-between;
-	background-color: rgb(224, 176, 75);
+	background-image: url(Imagenes/TramaFondo.png), url(Imagenes/ColorFondo.png);
 	padding: 30px 5%;
 
     border-width: 4px;
@@ -167,5 +167,5 @@
 
 	text-decoration: none;
 	color: #000000;
-
+	font-weight: bold;
 }
